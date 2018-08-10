@@ -13,7 +13,7 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'  STORED AS TEXTFILE  LOCATION '/u
  
  
  ##load registeruser to table
-  create external table if not exists registeruser(swid String,birthdate String,gender String) 
+  create external table if not exists registeruser2(swid String,birthdate String,gender String) 
  ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t' 
  STORED AS TEXTFILE 
  LOCATION '/user/cloudera/clickstreamforhive/reguser'
